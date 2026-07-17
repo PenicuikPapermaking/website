@@ -1,0 +1,120 @@
+/* CSS Document */
+
+/*text divs*/
+body {background-color: #FFFFFF;
+		background-image:url(paperbg.jpg);
+      color: #333333;
+	  font-size:12px;
+	  font-family:Verdana, Arial, Helvetica, sans-serif;}
+	  
+td {text-align:justify;}
+
+h1 {font-size: 145%;}
+h2 {font-size: 125%;}
+h3 {font-size: 105%;}
+
+h1,h2,h3 {letter-spacing: 0.04em;}
+
+h1,h2,h3 {color:#6f9c6f;}
+
+.hi-lite {font-weight: bold;
+			color:#6f9c6f;}
+span.hi-lite {color: #6f9c6f; }
+
+#imgcaption {font-size: 0.95em;
+			color:#6f9c6f;
+			font-style:normal;
+			text-align:center;
+			font-family:Arial, Helvetica, sans-serif;
+			}
+
+#address {color:#6f9c6f;
+		font-size:12px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;}
+
+#footer .smallprint {font-size: 0.95em;
+			font-style:italic; 
+            text-align: right;
+			font-family:Arial, Helvetica, sans-serif;
+			color:#6f9c6f;
+			text-decoration:none;}
+#smallprint {font-size: 0.95em;
+			text-align:justify;
+			font-family:Arial, Helvetica, sans-serif;
+			}
+
+#document {font-size: 12px;
+			font-family:"Times New Roman", Times, serif;
+			text-align: justify;
+			border: solid 1px #6f9c6f;
+			padding: 4px;
+			}
+			
+a:link {color: #6f9c6f; text-decoration:none;}
+a:visited {color: #6f9c6f; text-decoration:none;}
+a:hover {color: #333333; text-decoration:underline;}
+a:active {color: #6f9c6f; text-decoration:none;}
+
+/*layout divs*/
+
+html {
+	overflow-y: scroll;
+}
+
+#content {background-color: #FFFFFF;
+		  border-style: solid;
+          border-width: 1px;
+		  border-bottom: 1px solid #6f9c6f;
+          border-color: #6f9c6f;
+          margin: 0% auto;
+          width: 70%;
+          padding: 0.75em;
+		  }
+#main-sectionimg {
+	float:left;
+	vertical-align:top;
+	padding-right:6px;
+	padding-left:10px;
+	}	
+#resourcelinkimg {
+	float:right;
+	vertical-align:bottom;
+	padding-right:5px;
+	padding-left:10px;
+	}		  
+#masthead{
+	margin: 0;
+	padding: 0px 0px;
+	border:#6f9c6f;
+	border-style:solid;
+	border-width: 0px;
+	width: 100%;
+}
+#search{
+	margin: 0;
+	padding: 0px 0px;
+	font-size:10px;
+	}
+
+p.hi-lite {padding: 0.5em;}
+
+p {padding: 0 0.5em; }
+
+/*position divs*/
+
+#content {width: 800px; text-align:left;}
+
+#address {
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size:12px;
+		font-weight:bold;
+		color:#6f9c6f;
+		text-align:center;
+		padding-top: 3px;
+		border-top-color:#6f9c6f;
+		border-top-style:solid;
+		border-top-width:1px;
+}
+		
+#footer {clear: both;}
+
